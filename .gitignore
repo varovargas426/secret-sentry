@@ -1,0 +1,3 @@
+node_modules/
+coverage/
+secret-sentry-report.json

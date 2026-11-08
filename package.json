@@ -1,0 +1,15 @@
+{
+  "name": "secret-sentry-cli",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A local, dependency-free secret scanner for Git working trees.",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "scan": "node src/cli.js",
+    "demo": "node src/cli.js --demo",
+    "test": "node --test"
+  }
+}
